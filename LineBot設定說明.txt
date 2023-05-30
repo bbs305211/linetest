@@ -1,0 +1,9 @@
+cd c:\Users\sllee\linetest1
+python manage.py runserver
+
+cd c:\Users\sllee\linetest1
+ngrok http 8000
+
+重設https://manager.line.biz/account/@712nouiq/setting/messaging-api Webhook網址 https://xxxxxxxxxxxxxx.ngrok.io/callback 儲存
+
+重新整理https://developers.line.biz/console/channel/1654802247/messaging-api 後，重開 Use webhook
